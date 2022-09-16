@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.data.factory-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.data.factory-V2.1-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.data.factory-V2.2-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.data.factory-V2.2-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.data.factory-V2.3-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.data.factory-V2.3-java.jar \
+    vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.data.mwqem-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.data.mwqem-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.data.slm-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.data.slm-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar \
@@ -75,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
+    vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.hardware.mwqemadapter-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.mwqemadapter-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.hardware.slmadapter-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.hardware.slmadapter-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.callcapability-V1.0-java.jar \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
@@ -119,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.2.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.3.so \
+    vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@1.0.so \
@@ -141,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.lce@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.iop@2.0.so \
+    vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
@@ -485,6 +489,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.2.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.3.so \
+    vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
@@ -510,6 +515,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dsp@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
     vendor/xiaomi/mithorium-common-4.19/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
